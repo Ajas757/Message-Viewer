@@ -1,0 +1,57 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #287e8d;
+  color: #333;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 7px;
+  flex: 0 0 80%;
+}
+button {
+  display: block;
+  font-size: 1.2rem;
+  margin: 1rem auto;
+  padding: 0.7rem 2rem;
+  background: #88d5e9;
+  border: none;
+  border-radius: 8px;
+  transition: 0.5s;
+  color: #fff;
+  text-transform: capitalize;
+  outline: none;
+}
+
+button:hover {
+  background: #2ac0e6;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  width: 80%;
+  margin: 0.3rem;
+  border-radius: 5px;
+  border: 3px solid #88d5e9;
+  outline: none;
+  transition: 0.5s;
+}
+
+input[type="text"]:focus {
+  box-shadow: 0 0 10px #2ac0e6;
+}
+
+#messageOut {
+  margin: 0.5rem 0;
+  color: #2ac0e6;
+  text-transform: none;
+}
